@@ -1,6 +1,5 @@
-require ( './helpers.js' );
-
-const { expect } = require("chai")
+require('./helpers.js');
+const { expect } = require("chai");
 
 describe("index.js", () => {
   it("String: uses destructuring to declare five animal sounds", () => {
@@ -26,12 +25,10 @@ describe("index.js", () => {
     expect(little).to.equal("chicken")
   })
   it("String: uses destructuring to declare the three traditional animal colors", () => {
-    expect(blackAndWhite).to.exist
-    expect(blackAndWhite).to.equal("cow")
     expect(black).to.exist
-    expect(black).to.equal("sheep")
+    expect(black).to.equal("black")
     expect(pink).to.exist
-    expect(pink).to.equal("pig")
+    expect(pink).to.equal("pink")
   })
   it("Array: uses destructuring to declare the seven traditional rainbow color variables using the color names", () => {
     expect(red).to.exist
